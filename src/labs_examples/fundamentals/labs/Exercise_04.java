@@ -16,7 +16,8 @@ public class Exercise_04 {
         System.out.println("int i is: " + i);
 
         // write your code below
-
+        short j = 10;
+        System.out.println("short j is: " + j);
     }
 
 }
