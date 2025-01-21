@@ -23,7 +23,7 @@ public class Exercise_03 {
                 break;
             case 3:
                 System.out.println("March");
-                break;3
+                break;
             case 4:
                 System.out.println("April");
                 break;
