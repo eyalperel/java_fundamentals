@@ -9,5 +9,19 @@ package labs_examples.arrays.labs;
  */
 
 public class Exercise_04 {
+    public static void main(String[] args){
+        int[][] irregularArray = {
+                {1, 2, 3},
+                {4, 5},
+                {6, 7, 8, 9},
+                {10}
+        };
 
+        for (int[] row:irregularArray) {
+            for (int element:row) {
+                System.out.print(element + " ");
+            }
+            System.out.println();
+        }
+    }
 }
