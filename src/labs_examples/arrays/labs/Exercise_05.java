@@ -9,5 +9,13 @@ package labs_examples.arrays.labs;
  */
 
 public class Exercise_05 {
+    public static void main(String[] args){
+        int[] array = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
+        System.out.println("Every other element in reverse order:");
+
+        for (int i = array.length - 1; i >= 0; i -= 2){
+            System.out.println(array[i] + " ");
+        }
+    }
 
 }

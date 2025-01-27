@@ -1,4 +1,6 @@
 package labs_examples.arrays.labs;
+import java.util.ArrayList;
+
 
 /**
  *  ArrayLists
@@ -10,4 +12,14 @@ package labs_examples.arrays.labs;
  *
  */
 public class Exercise_07 {
+    public static void main(String[] args){
+        ArrayList<String> fruits = new ArrayList<>();
+        fruits.add("Apple");
+        fruits.add("Banana");
+        System.out.println("First fruit: " + fruits.get(0));
+        System.out.println("Second fruit: " + fruits.get(1));
+        System.out.println("Last fruit: " + fruits.get(fruits.size() - 1));
+    }
 }
+
+
