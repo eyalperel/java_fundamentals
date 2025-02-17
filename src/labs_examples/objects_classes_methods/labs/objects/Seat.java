@@ -8,5 +8,7 @@ public class Seat {
         this.height = 1;
         this.material = "Crap";
     }
-    
+    public String toString() {
+        return "Properties of seat:\n" + "Height: " + this.height + "\n" + "Material: " + this.material;
+    }
 }

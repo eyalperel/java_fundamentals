@@ -8,4 +8,8 @@ public class Door {
         this.isEmergency = false;
         this.isClosed = false;
     }
+
+    public String toString() {
+        return "Properties of door:\n" + "Emergency door: " + this.isEmergency + "\n" + "Closed Door: " + this.isClosed;
+    }
 }

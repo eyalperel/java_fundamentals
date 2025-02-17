@@ -8,4 +8,8 @@ public class Bathroom {
         this.isClean = true;
         this.isOccupied = false;
     }
+
+    public String toString() {
+        return "Properties of Bathroom:\n" + "Clean? " + this.isClean + "\n" + "Occupied? " + this.isOccupied;
+    }
 }
