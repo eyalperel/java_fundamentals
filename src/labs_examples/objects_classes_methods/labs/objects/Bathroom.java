@@ -12,4 +12,20 @@ public class Bathroom {
     public String toString() {
         return "Properties of Bathroom:\n" + "Clean? " + this.isClean + "\n" + "Occupied? " + this.isOccupied;
     }
+
+    public void setClean(Boolean clean) {
+        isClean = clean;
+    }
+
+    public void setOccupied(Boolean occupied) {
+        isOccupied = occupied;
+    }
+
+    public Boolean getClean() {
+        return isClean;
+    }
+
+    public Boolean getOccupied() {
+        return isOccupied;
+    }
 }

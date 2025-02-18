@@ -12,4 +12,20 @@ public class Door {
     public String toString() {
         return "Properties of door:\n" + "Emergency door: " + this.isEmergency + "\n" + "Closed Door: " + this.isClosed;
     }
+
+    public void setClosed(Boolean closed) {
+        isClosed = closed;
+    }
+
+    public Boolean getClosed() {
+        return isClosed;
+    }
+
+    public void setEmergency(Boolean emergency) {
+        isEmergency = emergency;
+    }
+
+    public Boolean getEmergency() {
+        return isEmergency;
+    }
 }
