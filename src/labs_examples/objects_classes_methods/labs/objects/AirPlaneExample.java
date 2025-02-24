@@ -7,7 +7,7 @@ public class AirPlaneExample {
         Seat mySeat = new Seat();
         Bathroom myhBathroom = new Bathroom();
         Airplane myAirplane = new Airplane(100, 1000, mySeat, myEngine, myhBathroom, myDoor);
-
+        System.out.println("Test: ");
         System.out.println(myAirplane.toString());
     }
     
